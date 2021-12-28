@@ -1,0 +1,27 @@
+
+$background: #F0F0F0 !default; 
+
+
+
+$Rage-primary-lighter:   #4f39a5;
+$Rage-primary:           #44318D;
+$Rage-primary-darker:    #36257e;
+
+$Rage-secondary:         #D83F87;
+$Rage-secondary-dark:    #c73579;
+
+$rage-theme:();
+$rage-theme: map-merge(
+    (
+        "rage-primary-l":   $Rage-primary-lighter,
+        "rage-primary":     $Rage-primary,
+        "rage-primary-d":   $Rage-primary-darker,
+        "rage-secondary":   $Rage-secondary,
+        "rage-secondary-d": $Rage-secondary-dark
+    ),
+    $rage-theme
+);
+
+body {
+    font-family: Poppins, Archivo;
+}

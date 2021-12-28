@@ -1,0 +1,20 @@
+:root {
+    --Rage-primary-lighter:   #4f39a5;
+    --Rage-primary:           #44318D;
+    --Rage-primary-darker:    #36257e;
+    --Rage-secondary:         #D83F87;
+    --Rage-secondary-dark:    #c73579;
+}
+
+.bg-rage {
+    background-color: var(--Rage-primary);
+}
+
+.btn-rage {
+    background-color: var(--Rage-secondary);
+    transition: 0.3s;
+}
+
+.btn-rage :hover {
+    background-color: var(--Rage-secondary-dark);
+}
